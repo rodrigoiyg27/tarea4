@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cifrados y Tipos de Cifrados</title>
+        <link rel="stylesheet" type="text/css" href="css/estilosP1.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+			<header>
+				<img class="logo" src="img/logo.png" alt="logo">
+					<nav>
+						<ul class="nav__links">
+							<li id="split"><a href="index.html">Inicio</a></li>
+							<li id="split"><a href="info.html">Información</a></li>
+						</ul>
+					</nav>
+					<a class="btn" href="contact.html">Contacto</a>
+					
+			</header>
+		<div class="contenido1">	
+			<div class="content">
+				<br>
+				<br>
+				<br>
+				<h1>¿Qué es un cifrado?</h1>
+				<br>
+				
+				<p style="text-align: left;">Es la conversión de datos de un formato legible a un formato codificado. Estos datos cifrados solo se pueden leer o procesar luego de descifrarlos.</p>
+				
+				<p style="text-align: left;">El cifrado es la base principal de la seguridad de datos. Es la forma más sencilla e importante para garantizar que la información de un sistema de 
+					computadora no pueda robarla ni leerla alguien que desee utilizarla con fines maliciosos.</p>
+				
+			</div>
+		</div>
+        <br>
+        <br>
+        <br>
+        <section class="metodos">
+            <div class="main">
+                <img src="img/foto5.png">
+                <div class="metodos-text">
+                    <h2 id="meth1">Métodos de Cifrados</h2>
+                    <p class="clavesp"><b>Claves de cifrado simétrico</b>: en este tipo de cifrado, se usa la misma clave tanto para la codificación como para la descodificación, lo que resulta más conveniente 
+                        para usuarios individuales y sistemas cerrados. Esto aumenta el riesgo de que quede comprometida si la intercepta un tercero como un hacker. 
+                        Este método es más rápido que el método asimétrico.</p><br>
+                    <p class="clavesp"><b>Claves de cifrado asimétrico</b>: en este tipo de cifrado, se utilizan dos claves diferentes (pública y privada) 
+                            que están vinculadas entre sí matemáticamente. Las claves son básicamente números extensos vinculados entre sí, 
+                            pero no son idénticos; de ahí el término "asimétrico". El propietario mantiene en secreto la clave privada,
+                             mientras que la clave pública se comparte entre los receptores autorizados o queda disponible al público general.</p>
+                    
+                </div>
+            </div>
+        </section>
+       <br>
+       <br>
+       <br>
+
+	<div class="tipos">
+		<div class="title">
+			<h2>Tipos de Cifrados</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<h5><b>DES</b></h5>
+				<div class="pra">
+					<p>Aceptado como el estándar de cifrado en la década de 1970, el cifrado DES ya no se considera seguro por sí solo. Encripta sólo 56 bits de datos a la vez y se descubrió que era fácil de hackear poco después de su introducción.</p>
+					<p style="text-align: center;">
+						<a class="button" href="cifrados.html">Conoce más</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h5><b>AES</b></h5>
+				<div class="pra">
+					<p>Uno de los tipos de cifrado más seguros, el Estándar de Cifrado Avanzado, lo utilizan los gobiernos y las organizaciones de seguridad, así como las empresas privadas para las comunicaciones clasificadas. AES utiliza un cifrado de clave "simétrico".</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="cifrados.html">Conoce más</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h5><b>RSA</b></h5>
+				<div class="pra">
+					<p>Se usa ampliamente para los datos enviados en línea y se basa en una clave pública para cifrar los datos. Aquellos en el extremo receptor de los datos tendrán su propia clave privada para decodificar los mensajes.</p>
+					<p style="text-align: center;">
+						<a class="button" href="cifrados.html">Conoce más</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="col-1">
+			<h3 >Accesos rápidos</h3>
+			<a href="sobre.html">Acerca de nosotros</a>
+			<a href="#">Servicios</a>
+			<a href="contact.html">Contacto</a>
+		</div>
+		<div class="col-2">
+			<h3>Subscripción</h3>
+			<form>
+				<input type="email" placeholder="Su Correo Electrónico" required><br>
+				<button type="submit">SUBSCRIBETE YA</button>
+			</form>
+		</div>
+		<div class="col-3">
+			<h3 >Siguenos</h3>
+			<div class="social">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+			</div>
+		</div>
+		
+
+	</div>
+    </body>
+</html>
